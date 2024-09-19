@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.testimonial-container {
+    height: 100px;
+    width: 500px;
+    margin: 5px;
+    padding: 70px 20px;
+    background-color: #6a5acd;
+    font-family: cursive;
+    font-size: 16px;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px 0px;
+    min-height: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+}
+
+.text {
+    height: 46px;
+    width: 500px;
+    margin: 16px 0px 16px 0px;
+    font-size: 16px;
+}
+
+.username {
+    font-size: 13px;
+    height: 18px;
+    font-weight: 100;
+}
+
+.text,
+.username {
+    color: #ffffff;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: -50px;
+    border-radius: 50%;
+    transform: translate(-50%);
+}
